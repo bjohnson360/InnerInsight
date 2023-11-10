@@ -47,3 +47,9 @@ Allows users to journal their thoughts and feelings throughout the day. Users ca
 
 ## Wireframes
 ![](https://i.imgur.com/XE2Wm5h.jpg)
+
+## Sprint Planning and Development
+- [] Sprint 1: Set up project, create tab bar
+- [] Sprint 2: Implement journaling
+- [] Sprint 3: Implement calendar and mood selecting 
+- [] Sprint 4: Implement AI chat

@@ -45,3 +45,5 @@ Allows users to journal their thoughts and feelings throughout the day. Users ca
 - Breathing
 - Chat
 
+## Wireframes
+![](https://i.imgur.com/XE2Wm5h.jpg)

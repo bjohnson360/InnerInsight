@@ -14,7 +14,7 @@ Allows users to journal their thoughts and feelings throughout the day. Users ca
 - [x] Created UI for the journaling page that includes a textbox, quote, a mood selector, and the submit button.
 
 **Unit 8:**
-![](https://i.imgur.com/z9q9cUK.gif)
+![]()
 
 **Features:**
 - [x] Created tab bar

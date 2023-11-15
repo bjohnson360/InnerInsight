@@ -5,6 +5,20 @@ InnerInsight
 ### Description
 Allows users to journal their thoughts and feelings throughout the day. Users can view motivational quotes, do breathing exercises, track their mood, and ask AI for advice.
 
+### Video Walkthrough
+**Unit 9:**
+![]()
+
+**Features:**
+[x] - Implemented breathing exercises
+[x] - Created UI for the journaling page that includes a textbox, quote, a mood selector, and the submit button.
+
+**Unit 8:**
+![](https://i.imgur.com/z9q9cUK.gif)
+
+**Features:**
+[x] - Created tab bar
+
 ### App Evaluation
 - **Category**: Health & Fitness
 - **Mobile**: The convenience of having this mobile is the ability to immediately open the app and express your feelings or do breathing exercises and more.

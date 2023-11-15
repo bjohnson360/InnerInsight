@@ -7,11 +7,13 @@ Allows users to journal their thoughts and feelings throughout the day. Users ca
 
 ### Video Walkthrough
 **Unit 9:**
-![]()
+![](https://github.com/bjohnson360/InnerInsight/blob/main/gifs/project9.gif)
 
 **Features:**
 - [x] Implemented breathing exercises
 - [x] Created UI for the journaling page that includes a textbox, quote, a mood selector, and the submit button.
+**Changes**
+- Instead of creating a calendar where users can view their old journals, it will just be a history page where users can view their old journals by date.
 
 **Unit 8:**
 ![](https://github.com/bjohnson360/InnerInsight/blob/main/gifs/demo.gif)
@@ -63,7 +65,8 @@ Allows users to journal their thoughts and feelings throughout the day. Users ca
 ![](https://i.imgur.com/XE2Wm5h.jpg)
 
 ## Sprint Planning and Development
-- [] Sprint 1: Set up project, create tab bar
-- [] Sprint 2: Implement journaling and mood selecting
-- [] Sprint 3: Implement history and breathing exercises
-- [] Sprint 4: Implement AI chat
+- [x] Sprint 1: Set up project, create tab bar
+- [x] Sprint 2: Implement journaling and mood selecting
+- [x] Sprint 3: Implement breathing exercises
+- [] Sprint 4: Implement history
+- [] Sprint 5: Implement AI chat

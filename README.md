@@ -50,6 +50,6 @@ Allows users to journal their thoughts and feelings throughout the day. Users ca
 
 ## Sprint Planning and Development
 - [] Sprint 1: Set up project, create tab bar
-- [] Sprint 2: Implement journaling
-- [] Sprint 3: Implement calendar and mood selecting 
+- [] Sprint 2: Implement journaling and mood selecting
+- [] Sprint 3: Implement history and breathing exercises
 - [] Sprint 4: Implement AI chat

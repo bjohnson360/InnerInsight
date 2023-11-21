@@ -8,10 +8,12 @@
 import UIKit
 
 class DetailViewController: UIViewController {
+    var journalDataManager = JournalDataManager()
 
     @IBOutlet weak var moodLabel: UILabel!
     @IBOutlet weak var journalLabel: UITextView!
     @IBOutlet weak var dateLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

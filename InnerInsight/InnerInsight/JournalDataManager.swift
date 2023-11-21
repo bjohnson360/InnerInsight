@@ -9,29 +9,26 @@ import Foundation
 
 class JournalDataManager {
 
-    static let shared = JournalDataManager()
-
-    private let userDefaults = UserDefaults.standard
-    private let entriesKey = "JournalEntries"
-
-    var journalEntries: [JournalEntry] {
-        get {
-            if let data = userDefaults.data(forKey: entriesKey),
-               let entries = try? JSONDecoder().decode([JournalEntry].self, from: data) {
-                return entries
+    var entries: [JournalEntry] {
+            get {
+                if let data = UserDefaults.standard.data(forKey: JournalEntry.savedKey),
+                   let savedEntries = try? JSONDecoder().decode([JournalEntry].self, from: data) {
+                    return savedEntries
+                }
+                return []
             }
-            return []
-        }
-        set {
-            if let data = try? JSONEncoder().encode(newValue) {
-                userDefaults.set(data, forKey: entriesKey)
+            set {
+                if let encodedData = try? JSONEncoder().encode(newValue) {
+                    UserDefaults.standard.set(encodedData, forKey: JournalEntry.savedKey)
+                }
             }
         }
-    }
 
-    func addEntry(_ entry: JournalEntry) {
-        var entries = journalEntries
-        entries.append(entry)
-        journalEntries = entries
-    }
+        // Function to add a new journal entry
+    func addEntry(date: String, journalText: String, mood: String) {
+            let newEntry = JournalEntry(date: date, journalText: journalText, mood: mood)
+            var updatedEntries = entries
+            updatedEntries.append(newEntry)
+            entries = updatedEntries
+        }
 }

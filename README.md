@@ -6,6 +6,12 @@ InnerInsight
 Allows users to journal their thoughts and feelings throughout the day. Users can view motivational quotes, do breathing exercises, track their mood, and ask AI for advice.
 
 ### Video Walkthrough
+**Unit 10**
+![](https://github.com/bjohnson360/InnerInsight/blob/main/gifs/10.gif)
+
+**Features**
+- [x] Clears textbox and current mood when submit button is pressed
+
 **Unit 9:**
 ![](https://github.com/bjohnson360/InnerInsight/blob/main/gifs/project9.gif)
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B21F84D2B0C2DEE005D8086 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B21F84C2B0C2DEE005D8086 /* Quotes.swift */; };
+		8B21F84F2B0C31FB005D8086 /* QuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B21F84E2B0C31FB005D8086 /* QuoteService.swift */; };
 		8B5317222AFE04A600C5E99F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5317212AFE04A600C5E99F /* AppDelegate.swift */; };
 		8B5317242AFE04A600C5E99F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5317232AFE04A600C5E99F /* SceneDelegate.swift */; };
 		8B5317292AFE04A600C5E99F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5317272AFE04A600C5E99F /* Main.storyboard */; };
@@ -17,11 +19,9 @@
 		8B5317452AFE04A900C5E99F /* InnerInsightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5317442AFE04A900C5E99F /* InnerInsightUITestsLaunchTests.swift */; };
 		8B5317562B04271E00C5E99F /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5317552B04271E00C5E99F /* JournalViewController.swift */; };
 		8B5317582B04291E00C5E99F /* BreathingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5317572B04291E00C5E99F /* BreathingViewController.swift */; };
-		8B53175E2B043F1000C5E99F /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B53175D2B043F1000C5E99F /* CalendarCell.swift */; };
 		8B5317622B04462700C5E99F /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5317612B04462700C5E99F /* JournalEntry.swift */; };
 		8B5317642B04466000C5E99F /* JournalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5317632B04466000C5E99F /* JournalDataManager.swift */; };
 		8B5317662B0446B700C5E99F /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5317652B0446B700C5E99F /* HistoryViewController.swift */; };
-		8B5317682B044B9000C5E99F /* JournalEntryCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5317672B044B8F00C5E99F /* JournalEntryCellTableViewCell.swift */; };
 		8B53176A2B044DC200C5E99F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5317692B044DC200C5E99F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B21F84C2B0C2DEE005D8086 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
+		8B21F84E2B0C31FB005D8086 /* QuoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteService.swift; sourceTree = "<group>"; };
 		8B53171E2AFE04A600C5E99F /* InnerInsight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InnerInsight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5317212AFE04A600C5E99F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B5317232AFE04A600C5E99F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,11 +59,9 @@
 		8B5317442AFE04A900C5E99F /* InnerInsightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerInsightUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8B5317552B04271E00C5E99F /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 		8B5317572B04291E00C5E99F /* BreathingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingViewController.swift; sourceTree = "<group>"; };
-		8B53175D2B043F1000C5E99F /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		8B5317612B04462700C5E99F /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
 		8B5317632B04466000C5E99F /* JournalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDataManager.swift; sourceTree = "<group>"; };
 		8B5317652B0446B700C5E99F /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
-		8B5317672B044B8F00C5E99F /* JournalEntryCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryCellTableViewCell.swift; sourceTree = "<group>"; };
 		8B5317692B044DC200C5E99F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = InnerInsight/DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,8 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				8B5317692B044DC200C5E99F /* DetailViewController.swift */,
-				8B5317672B044B8F00C5E99F /* JournalEntryCellTableViewCell.swift */,
-				8B53175D2B043F1000C5E99F /* CalendarCell.swift */,
 				8B5317202AFE04A600C5E99F /* InnerInsight */,
 				8B5317372AFE04A900C5E99F /* InnerInsightTests */,
 				8B5317412AFE04A900C5E99F /* InnerInsightUITests */,
@@ -120,6 +118,8 @@
 				8B5317212AFE04A600C5E99F /* AppDelegate.swift */,
 				8B5317232AFE04A600C5E99F /* SceneDelegate.swift */,
 				8B5317272AFE04A600C5E99F /* Main.storyboard */,
+				8B21F84C2B0C2DEE005D8086 /* Quotes.swift */,
+				8B21F84E2B0C31FB005D8086 /* QuoteService.swift */,
 				8B5317612B04462700C5E99F /* JournalEntry.swift */,
 				8B5317632B04466000C5E99F /* JournalDataManager.swift */,
 				8B5317652B0446B700C5E99F /* HistoryViewController.swift */,
@@ -279,11 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B53175E2B043F1000C5E99F /* CalendarCell.swift in Sources */,
-				8B5317682B044B9000C5E99F /* JournalEntryCellTableViewCell.swift in Sources */,
 				8B5317622B04462700C5E99F /* JournalEntry.swift in Sources */,
 				8B5317222AFE04A600C5E99F /* AppDelegate.swift in Sources */,
+				8B21F84F2B0C31FB005D8086 /* QuoteService.swift in Sources */,
 				8B5317242AFE04A600C5E99F /* SceneDelegate.swift in Sources */,
+				8B21F84D2B0C2DEE005D8086 /* Quotes.swift in Sources */,
 				8B5317562B04271E00C5E99F /* JournalViewController.swift in Sources */,
 				8B5317642B04466000C5E99F /* JournalDataManager.swift in Sources */,
 				8B53176A2B044DC200C5E99F /* DetailViewController.swift in Sources */,
